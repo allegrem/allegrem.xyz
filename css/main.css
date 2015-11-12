@@ -1,0 +1,72 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron {
+    height: 100%;
+    padding: 10% 0 65% 0;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.jumbotron h1:before, .jumbotron h1:after {
+    margin: 0 15px;
+    color: #3A8FFF;
+    font-weight: bold;
+}
+
+.jumbotron h1:before {
+    content: '[';    
+}
+
+.jumbotron h1:after {
+    content: ']';
+}
+
+
+.contact {
+    margin-bottom: 3em;
+}
+
+.contact p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    width: 30%;
+    margin: 10px auto;
+    font-size: 1.3em;
+    color: #000;
+    outline: none;
+}
+
+.contact textarea {
+    height: 5em;
+}
+
+.contact button {
+    display: block;
+    background: #3A8FFF;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 10%;
+}
