@@ -2,18 +2,18 @@ body {
     background-color: #333;
     color: white;
     font-family: 'Titillium Web', sans-serif;
-
-    background: url('../img/bg.jpg');
-    background-size: cover;
-    background-position: center center;
 }
 
 .jumbotron {
-    height: 100%;
-    padding: 50px 0 65% 0;
+    width: 100%;
+    padding: 40px 0 800px 0;
+    background: url('../img/bg.jpg');
+    background-position: 42%;
+    background-size: cover;
 }
 
 .jumbotron h1 {
+    margin: 0;
     font-size: 5em;
     text-align: center;
     font-weight: normal;
@@ -69,4 +69,22 @@ body {
     padding: 5px 10px;
     margin: 10px auto;
     width: 10%;
+}
+
+
+@media (max-width: 1000px) {
+    .jumbotron {
+        padding-bottom: 400px;
+    }
+
+    .jumbotron h1 {
+        font-size: 3em;
+    }
+
+    .contact input, .contact textarea {
+        width: 70%;
+    }
+    .contact button {
+        width: 50%;
+    }
 }
